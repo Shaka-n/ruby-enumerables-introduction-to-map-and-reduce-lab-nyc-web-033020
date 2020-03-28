@@ -68,4 +68,5 @@ def reduce_to_any_true (source_array)
       return final_word
     end
   end
+  return false
 end
