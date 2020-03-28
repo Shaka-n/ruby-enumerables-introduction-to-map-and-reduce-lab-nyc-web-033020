@@ -53,7 +53,8 @@ def reduce_to_all_true (source_array)
   index = 0 
   true_array = []
   while index < source_array.length do 
-    source_array[index] = 
-    index += 1
+    true_array[index] = source_array[index]
+    true_array[index] = true
   end
+  true_array
 end
