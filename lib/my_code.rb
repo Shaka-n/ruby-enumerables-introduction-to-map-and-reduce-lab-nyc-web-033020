@@ -60,6 +60,7 @@ def reduce_to_all_true (source_array)
 end
 
 def reduce_to_any_true (source_array)
+  pp source_array
   index = 0 
   final_word = true
   while index < source_array.length do 
