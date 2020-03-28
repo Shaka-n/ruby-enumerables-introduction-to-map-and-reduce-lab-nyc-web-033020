@@ -6,4 +6,5 @@ def map_to_negativize(source_array)
     negative_array[index] = source_array[index] * -1
     index += 1 
   end
+  negative_array
 end
