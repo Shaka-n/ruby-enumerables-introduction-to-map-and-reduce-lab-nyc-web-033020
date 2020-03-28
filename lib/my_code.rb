@@ -65,6 +65,7 @@ def reduce_to_any_true (source_array)
   final_word = false
   while index < source_array.length do 
     final_word = source_array[index]
+    puts final_word
     if final_word = true
       return final_word
     end
