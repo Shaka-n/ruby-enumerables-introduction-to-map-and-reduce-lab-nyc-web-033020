@@ -9,6 +9,11 @@ def map_to_negativize(source_array)
   negative_array
 end
 
-def mapt_to_no_change(source_array)
-  
+def map_to_no_change(source_array)
+  index = 0 
+  no_change_array = []
+  while index < source_array.lenth do 
+    no_change_array[index] = source_array[index]
+    index += 1
+  end
 end
