@@ -58,3 +58,14 @@ def reduce_to_all_true (source_array)
   end
   final_word
 end
+
+def reduce_to_any_true (source_array)
+  index = 0 
+  final_word = true
+  while index < source_array.length do 
+    final_word = source_array[index]
+    if final_word = true
+      return final_word
+    end
+  end
+end
