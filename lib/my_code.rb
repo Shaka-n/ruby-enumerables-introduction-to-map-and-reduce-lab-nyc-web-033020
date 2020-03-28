@@ -67,6 +67,7 @@ def reduce_to_any_true (source_array)
     if final_word = true
       return final_word
     end
+    index+=1 
   end
   return false
 end
