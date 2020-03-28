@@ -16,4 +16,5 @@ def map_to_no_change(source_array)
     no_change_array[index] = source_array[index]
     index += 1
   end
+  no_change_array
 end
