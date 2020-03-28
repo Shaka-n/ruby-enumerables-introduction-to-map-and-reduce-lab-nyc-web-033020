@@ -50,5 +50,11 @@ def reduce_to_total(source_array, starting_point=0)
 end
 
 def reduce_to_all_true (source_array)
-  true
+  index = 0 
+  final_word = false
+  while index < source_array.length do 
+    final_word = source_array[index]
+    index += 1
+  end
+  final_word
 end
