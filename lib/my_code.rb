@@ -71,5 +71,5 @@ def reduce_to_any_true (source_array)
     end
     index+=1 
   end
-  return false
+  return final_word
 end
