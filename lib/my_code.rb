@@ -18,3 +18,9 @@ def map_to_no_change(source_array)
   end
   no_change_array
 end
+
+def map_to_double(source_array)
+  index = 0 
+  while index < source_array.length do 
+    index+=
+end
